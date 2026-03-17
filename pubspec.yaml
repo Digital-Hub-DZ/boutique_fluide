@@ -1,0 +1,34 @@
+name: boutique_fluide
+description: "Explore our chic French e-commerce app, featuring a sleek product grid across Men, Women, and Kids categories, intelligent filters, and a direct WhatsApp ordering option, all managed effortlessly through a dedicated admin portal."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  crypto: ^3.0.0
+  shared_preferences: ^2.0.0
+  transparent_image: ^2.0.0
+  url_launcher: ^6.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  provider: ^6.1.2
+  go_router: ^16.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/dreamflow_icon.jpg
+  remove_alpha_ios: true
